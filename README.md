@@ -5,6 +5,7 @@
 #### 环境准备
 
 	brew install python
+	pip install autopep8 # 请使用 autopep8 格式化代码
 	pip install requests
 	pip install pysrt
 
