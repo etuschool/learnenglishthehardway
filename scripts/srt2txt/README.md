@@ -1,4 +1,4 @@
-## clean_srt.py
+## srt2txt.py
 
 ---
 

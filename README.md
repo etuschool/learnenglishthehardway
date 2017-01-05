@@ -2,15 +2,19 @@
 
 ### 1. 代码 & 工具
 
-#### 提前准备
+#### 环境准备
 
 	brew install python
 	pip install requests
 	pip install pysrt
 
-#### 子项目
-- scripts/medict: 查词小程序
-- scripts/srt2txt: 将srt字幕转成更易读的字幕文本
+#### 脚本
+- [scripts/bin](https://github.com/lifedim/learnenglishthehardway/tree/master/scripts/bin): 需要放入 PATH 的命令目录，通过 ln 软链到对应的 py 脚本
+- [scripts/medict](https://github.com/lifedim/learnenglishthehardway/tree/master/scripts/medict): 查词小程序
+- [scripts/srt2txt](https://github.com/lifedim/learnenglishthehardway/tree/master/scripts/srt2txt): 将srt字幕转成更易读的字幕文本
+- [scripts/train_word](https://github.com/lifedim/learnenglishthehardway/tree/master/scripts/train_word): 提供一个词汇表，训练你掌握这个表里的所有单词
+- [scripts/train_num](https://github.com/lifedim/learnenglishthehardway/tree/master/scripts/train_num): 提供一个数字(任意数字，星期，月份等等)表, 训练你掌握这些数字
+- [scripts/mistakes](https://github.com/lifedim/learnenglishthehardway/tree/master/scripts/mistakes): 可以添加错题、查看错题统计。会在 `~/.learnenglishthehardway/` 目录下生成 `.mistakes` 文本文件用于保存错题记录
 
 ### 2. 目标
 
