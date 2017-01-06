@@ -1,0 +1,2 @@
+requests==2.9.1
+pysrt==1.1.1
