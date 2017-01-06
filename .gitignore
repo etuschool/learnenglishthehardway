@@ -5,6 +5,7 @@ __pycache__/
 *.un~
 .DS_Store
 *py.swp
+*.swp
 
 # C extensions
 *.so

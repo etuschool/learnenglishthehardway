@@ -11,7 +11,8 @@
 
 #### 脚本
 - [scripts/bin](https://github.com/lifedim/learnenglishthehardway/tree/master/scripts/bin): 需要放入 PATH 的命令目录，通过 ln 软链到对应的 py 脚本
-- [scripts/medict](https://github.com/lifedim/learnenglishthehardway/tree/master/scripts/medict): 查词小程序
+- [scripts/medict](https://github.com/lifedim/learnenglishthehardway/tree/master/scripts/medict): 查词小程序，每次查词会自动记录到生词本 👇
+- [scripts/wordbook](https://github.com/lifedim/learnenglishthehardway/tree/master/scripts/wordbook): 生词本，按时间管理和播放生词本，暂只支持 `wordbook today play`
 - [scripts/srt2txt](https://github.com/lifedim/learnenglishthehardway/tree/master/scripts/srt2txt): 将srt字幕转成更易读的字幕文本
 - [scripts/train_word](https://github.com/lifedim/learnenglishthehardway/tree/master/scripts/train_word): 提供一个词汇表，训练你掌握这个表里的所有单词
 - [scripts/train_num](https://github.com/lifedim/learnenglishthehardway/tree/master/scripts/train_num): 提供一个数字(任意数字，星期，月份等等)表, 训练你掌握这些数字
