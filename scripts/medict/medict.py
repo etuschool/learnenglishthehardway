@@ -64,14 +64,14 @@ def saveDailyWordDefs(word, defination):
     with open(path, "a") as f:
         f.write(word + '\n' + defination + '\n\n')
 
-if len(sys.argv) != 2:
+if len(sys.argv) < 2:
     print 'Usage: medict <word>'
     exit()
 
 # Get word defination
 # Ref:
 # http://dict-co.iciba.com/api/dictionary.php?w=go&key=6E5CF28FEBD10AAADAE0B6DB21579AB2&type=json
-word = sys.argv[1]
+word = ' '.join(sys.argv[1:])
 
 content = requestWordDefination(word)
 
