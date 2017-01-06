@@ -4,10 +4,9 @@
 
 #### 环境准备
 
-	brew install python
-	pip install autopep8 # 请使用 autopep8 格式化代码
-	pip install requests
-	pip install pysrt
+    brew install python --universal
+    pip install -r requirements.txt
+    # 代码请遵守 pep8 规范
 
 #### 脚本
 - [scripts/bin](https://github.com/lifedim/learnenglishthehardway/tree/master/scripts/bin): 需要放入 PATH 的命令目录，通过 ln 软链到对应的 py 脚本
